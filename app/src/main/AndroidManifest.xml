@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oksareinaldi.abah.altis.Activity">
+    package="com.oksareinaldi.abah.altis">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".app.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,12 +22,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".Register" />
         <activity android:name=".forgot" />
-        <activity
-            android:name=".MainMenu"
-            android:label="@string/title_activity_main_menu"
-            android:theme="@style/AppTheme" />
-        <activity android:name="com.oksareinaldi.abah.altis.Activity.statistik" />
-        <activity android:name="com.oksareinaldi.abah.altis.Activity.about"></activity>
+        <activity android:name=".statistik" />
+        <activity android:name=".about" />
+        <activity android:name=".MainMenu"></activity>
     </application>
 
 </manifest>

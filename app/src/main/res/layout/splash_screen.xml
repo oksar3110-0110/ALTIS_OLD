@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_light"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-    tools:context="com.oksareinaldi.abah.altis.Activity.SplashScreen"
+    tools:context="com.oksareinaldi.abah.altis.Activity.com.oksareinaldi.abah.altis.SplashScreen"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView

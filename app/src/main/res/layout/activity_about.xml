@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.oksareinaldi.abah.altis.Activity.about"
+    tools:context="com.oksareinaldi.abah.altis.Activity.com.oksareinaldi.abah.altis.about"
     android:background="@drawable/bg00"
     android:orientation="vertical">
 <LinearLayout
