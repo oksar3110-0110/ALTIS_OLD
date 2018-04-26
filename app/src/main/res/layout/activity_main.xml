@@ -35,7 +35,7 @@
             android:layout_gravity="center"
             android:gravity="center"/>
         <EditText
-            android:id="@+id/txtUser"
+            android:id="@+id/txtUserL"
             android:layout_gravity="center"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:background="@drawable/back_txt"/>
 
         <EditText
-            android:id="@+id/txtPass"
+            android:id="@+id/txtPassL"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:ems="10"
