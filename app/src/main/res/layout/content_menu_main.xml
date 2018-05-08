@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oksareinaldi.abah.altis.MenuMain"
+    tools:showIn="@layout/app_bar_menu_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp" >
+
+            <ImageView
+                android:id="@+id/butBuku"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="45dp"
+                android:src="@drawable/buku" />
+            <ImageView
+                android:id="@+id/butLatihan"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/latihan"
+                android:layout_width="match_parent"
+                android:layout_height="94dp" />
+            <ImageView
+                android:id="@+id/butUjian"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ujian"
+                android:layout_width="match_parent"
+                android:layout_height="94dp" />
+            <ImageView
+                android:id="@+id/butSetting"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/setting"
+                android:layout_width="match_parent"
+                android:layout_height="94dp" />
+            <ImageView
+                android:id="@+id/butAbout"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/about"
+                android:onClick="onAbout"
+                android:layout_width="match_parent"
+                android:layout_height="94dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

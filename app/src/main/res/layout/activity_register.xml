@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg00"
     android:orientation="vertical"
-    tools:context="com.oksareinaldi.abah.altis.Activity.com.oksareinaldi.abah.altis.Register">
+    tools:context=".Register">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                     android:text="REGISTER"
                     android:layout_marginRight="50dp" />
                 <Button
-                    android:id="@+id/LoginBt"
+                    android:id="@+id/regLoginBt"
                     android:background="@drawable/button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

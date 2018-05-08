@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oksareinaldi.abah.altis.EditBio">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="EDIT BIO"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioNama"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Nama"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioUser"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Username"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioKls"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Kelas"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioEmail"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Email"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioTtl"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="TTL"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioNisn"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="NISN"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioNmAyah"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Nama Ayah"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bioNmIbu"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:hint="Nama Ibu"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/saveBio"
+                        android:text="SAVE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/cancelBio"
+                        android:text="CANCEL"
+                        android:layout_marginLeft="130dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

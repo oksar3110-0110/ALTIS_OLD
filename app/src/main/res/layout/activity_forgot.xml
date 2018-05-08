@@ -6,7 +6,7 @@
     android:padding="16dp"
     android:layout_height="match_parent"
     android:background="@drawable/bg00"
-    tools:context="com.oksareinaldi.abah.altis.Activity.com.oksareinaldi.abah.altis.forgot">
+    tools:context=".forgot">
 
     <LinearLayout
         android:layout_width="match_parent"

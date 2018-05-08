@@ -3,7 +3,6 @@
     package="com.oksareinaldi.abah.altis">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +23,11 @@
         <activity android:name=".forgot" />
         <activity android:name=".statistik" />
         <activity android:name=".about" />
-        <activity android:name=".MainMenu"></activity>
+        <activity
+            android:name=".MenuMain"
+            android:label="@string/title_activity_menu_main"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EditBio"></activity>
     </application>
 
 </manifest>
